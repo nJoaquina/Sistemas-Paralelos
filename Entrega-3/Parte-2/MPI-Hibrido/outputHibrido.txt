@@ -1,0 +1,1 @@
+N=4096  Tiempo total=16.161110  Tiempo comunicacion=8.215382
