@@ -1,0 +1,1 @@
+Tamaï¿½o de matriz: 512, Bloque: 64, Hilos: 2, Tiempo: 0.217479 segundos
