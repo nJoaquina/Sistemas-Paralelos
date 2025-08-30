@@ -1,0 +1,16 @@
+N = {512, 1024, 2048m 4096}
+T = {2,4,8}
+
+Secuencial 
+gcc -o salidaSecuencial secuencial.c -O3 -lm
+sbatch ./miScriptSecuencial.sh N
+
+Pthread
+gcc -pthread -o salidaPthread pthread.c -O3 -lm
+sbatch ./miScriptPthread.sh N T
+
+OpenMP
+gcc -fopenmp -o salidaOpenMp openMp.c -O3 -lm
+sbatch ./miScriptOpenMp.sh N T
+
+
